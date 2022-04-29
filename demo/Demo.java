@@ -66,10 +66,10 @@ public class Demo {
 		driver.findElement(By.name("email")).sendKeys("latunde.nifemi2016@gmail.com");
 		driver.findElement(By.name("phone")).sendKeys("+2348028151195");
 		driver.findElement(By.name("message")).sendKeys("Thank you Oeson for this wonderful opportunity. I have learnt so much this past weeks. Great work!!!");
-//		Thread.sleep(2000);
+		Thread.sleep(2000);
 
 		driver.findElement(By.linkText("Blog")).click();
-//		Thread.sleep(2000);
+		Thread.sleep(2000);
 		
 		
 		driver.close();
